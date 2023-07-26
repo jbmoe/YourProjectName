@@ -22,6 +22,10 @@ The template contains the following files and directories:
 
 - `stylecop.json`: This file is a configuration file for StyleCop, a tool that enforces a set of coding style and consistency rules.
 
+- `CHANGELOG.md`: This is a changelog template. Use if applicable or delete.
+
+- `LICENSE.txt`: Sample MIT license file. Use if applicable or delete.
+
 ## Getting Started
 
 To use this template, follow the steps below:
@@ -35,7 +39,7 @@ To use this template, follow the steps below:
    - `tests/` directory: This is where you can add unit tests for your project.
    - `YourProjectName.sln` file: This is the solution file that ties together all the projects in the solution.
 
-4. Rename the solution file (`YourProjectName.sln`) to match your project's name.
+4. Rename the solution file (`YourProjectName.sln`) to match your project's name. Use CTRL+SHIFT+F for finding all occurences of **YourProjectName**
 
 5. Start writing your C# code in the `src/` directory. You can organize your code into classes and namespaces based on your project's requirements.
 
