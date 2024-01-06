@@ -2,28 +2,28 @@
 <Project>
 
   <PropertyGroup>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <WarningsAsErrors />
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	<LangVersion>12</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup>
-    <CodeAnalysisRuleSet>..\..\lib\settings\IceCreamPablo.ruleset</CodeAnalysisRuleSet>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	<CodeAnalysisRuleSet>..\..\lib\settings\IceCreamPablo.ruleset</CodeAnalysisRuleSet>
+	<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+	<PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
   </ItemGroup>
 
   <ItemGroup>
-    <AdditionalFiles Include="..\..\lib\settings\stylecop.json">
-      <Link>stylecop.json</Link>
-    </AdditionalFiles>
+	<AdditionalFiles Include="..\..\lib\settings\stylecop.json">
+	  <Link>stylecop.json</Link>
+	</AdditionalFiles>
   </ItemGroup>
 
 </Project>
